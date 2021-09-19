@@ -62,7 +62,7 @@ class NewsViewModel: ObservableObject {
     }
     
     /// Some topic list
-    static var topics = ["Apple", "Technology", "Bitcoin", "Celebrities", "Business", "COVID-19", "Politicis", "Fashion", "Sports", "Entertainment", "Travel", "Science"]
+    static var topics = ["Apple", "Technology", "Bitcoin", "Celebrities", "Business", "COVID-19", "Politics", "Fashion", "Sports", "Entertainment", "Travel", "Science"]
     
     /// Get all hottest news or by topic
     func fetchNews(customTopic: String?) async -> News? {
