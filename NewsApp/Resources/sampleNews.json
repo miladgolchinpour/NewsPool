@@ -1,0 +1,19 @@
+{
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "Amanda Kooser",
+            "title": "Epic images from China's space station deliver knockout views of the Earth - CNET",
+            "description": "What a pretty planet we've got here.",
+            "url": "https://www.cnet.com/news/epic-images-from-chinas-space-station-deliver-knockout-views-of-the-earth/",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/-frlw-3-hYnq1P39AjKN6lPoY8M=/0x140:1960x1166/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22850355/Apple_iPad_mini_touch_id_09142021_big_carousel.jpg.large_2x.jpg",
+            "publishedAt": "2021-09-17T03:11:35Z",
+            "content": "Lights sparkle below in this sweeping view of Earth, space and stars taken from the Tianhe module of China's space station.\r\nTang Hongbo/China Manned Space Agency\r\nIt's been a busy year for China in … [+1929 chars]"
+        }
+    ]
+}
