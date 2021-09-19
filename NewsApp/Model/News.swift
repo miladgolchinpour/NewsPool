@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// News Model
 struct News: Codable {
     var status: String
     var totalResults: Int
@@ -15,6 +16,7 @@ struct News: Codable {
 }
 
 extension News {
+    /// Get sample version of news
     static var sample: News {
         let url = Bundle.main.url(forResource: "sampleNews", withExtension: "json")!
         let data = try? Data(contentsOf: url)

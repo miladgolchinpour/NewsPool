@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// Sidebar for iPad devices
 struct Sidebar: View {
     @ObservedObject var viewModel: NewsViewModel
     
@@ -28,6 +29,7 @@ struct Sidebar: View {
             }
             .navigationTitle("News")
             
+            // Default view
             Discover(viewModel: viewModel)
         }
     }

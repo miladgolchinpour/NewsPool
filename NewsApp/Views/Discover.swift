@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// Discover view with hottest news
 struct Discover: View {
     @ObservedObject var viewModel: NewsViewModel
     @State private var news: News?

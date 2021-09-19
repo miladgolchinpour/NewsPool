@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// Little view for showing letter with colored background
 struct LetterImage: View {
     var letter: Character
     

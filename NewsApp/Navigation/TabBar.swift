@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// Tab View for iPhone devices
 struct TabBar: View {
     @ObservedObject var viewModel: NewsViewModel
     

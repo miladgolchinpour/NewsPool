@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// Bookmarks view for showing saved articles by user
 struct Bookmarks: View {
     @ObservedObject var viewModel: NewsViewModel
     

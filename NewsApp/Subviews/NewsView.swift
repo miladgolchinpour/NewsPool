@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// Show articles in a list with article cards
 struct NewsView: View {
     var news: News?
     @State private var isShowError = false
@@ -25,7 +26,8 @@ struct NewsView: View {
                             ArticleView(viewModel: viewModel, article: article)
                         } label: {
                             ArticleCard(article: article)
-                                .padding()
+                                .padding(.horizontal)
+                                .padding(.vertical, 5)
                         }
                     }
                 }
@@ -38,6 +40,7 @@ struct NewsView: View {
             }
         }
         .task {
+            /// Stop getting articles after 15 seconds
             DispatchQueue.main.asyncAfter(deadline: .now() + 15) {
                 if news == nil { isShowError = true }
             }

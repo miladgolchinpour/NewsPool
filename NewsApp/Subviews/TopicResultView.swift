@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// Result of selected or custom topic by user
 struct TopicResultView: View {
     @ObservedObject var viewModel: NewsViewModel
     var topic: String

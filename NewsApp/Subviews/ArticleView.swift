@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// ArticleView included title, image, description, content, author and publish date
 struct ArticleView: View {
     @ObservedObject var viewModel: NewsViewModel
     
@@ -38,6 +39,7 @@ struct ArticleView: View {
                 }
                 
                 if let content = article.content {
+                    // Content text with Lora font
                     Text(content)
                         .font(.custom("Lora", size: 20))
                 }

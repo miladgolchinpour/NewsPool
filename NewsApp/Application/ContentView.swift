@@ -15,8 +15,10 @@ struct ContentView: View {
     
     var body: some View {
         if hSizeClass == .compact {
+            // iPhone
             TabBar(viewModel: newsViewModel)
         } else {
+            // iPad
             Sidebar(viewModel: newsViewModel)
         }
     }

@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// Showing article image view
 struct ArticleImageView: View {
     var url: String?
     

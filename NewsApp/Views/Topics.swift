@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// Search and getting articles by custom topic
 struct Topics: View {
     @ObservedObject var viewModel: NewsViewModel
     

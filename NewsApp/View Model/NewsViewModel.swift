@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// Access to all properties and methods for getting data
 @MainActor
 class NewsViewModel: ObservableObject {
     /// Saved bookmarks to userDefaults
@@ -19,7 +20,6 @@ class NewsViewModel: ObservableObject {
         }
     }
     
-    /// Access to all properties and methods for getting data
     init() {
         let ud = UserDefaults.standard
         
@@ -34,7 +34,7 @@ class NewsViewModel: ObservableObject {
         
         self.bookmarks = []
         
-        // Default country is usa
+        // Default country is United States
         self.country = Country(name: "United States", code: "us")
     }
     

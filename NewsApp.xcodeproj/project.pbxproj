@@ -183,8 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				11D401C626F482550010B853 /* Discover.swift */,
-				11D401D226F5BEBC0010B853 /* Bookmarks.swift */,
 				1178EA2826F7167300F89DA2 /* Topics.swift */,
+				11D401D226F5BEBC0010B853 /* Bookmarks.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

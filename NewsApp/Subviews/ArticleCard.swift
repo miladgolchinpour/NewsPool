@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// Article card view
 struct ArticleCard: View {
     var article: Article
     
