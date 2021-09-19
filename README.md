@@ -1,4 +1,9 @@
-# NewsPool
+# NewsPool  ![tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fmiladgolchinpour%2FNewsPool)
+
+![platforms](https://img.shields.io/badge/platforms-ios-blue)
+![license](https://img.shields.io/github/license/miladgolchinpour/NewsPool)
+![issues](https://img.shields.io/github/issues-raw/miladgolchinpour/NewsPool)
+![last commit](https://img.shields.io/github/last-commit/miladgolchinpour/NewsPool)
 
 You can easily read news and share articles with your friends by NewsPool.  
 Actually this application is simple and **not created for real usage**.  
