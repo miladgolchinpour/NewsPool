@@ -23,6 +23,12 @@ struct ArticleView: View {
         return ft
     }()
     
+    var url: URL {
+        URL(string: article.url)!
+    }
+    
+    @State private var isShowActivityController = false
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 43.0) {
@@ -44,7 +50,6 @@ struct ArticleView: View {
                         .font(.custom("Lora", size: 20))
                 }
                 
-                let url = URL(string: article.url)!
                 Link("View full article", destination: url)
                     .font(.headline)
                     .padding(.bottom)
@@ -68,11 +73,22 @@ struct ArticleView: View {
         .navigationTitle(article.source.name)
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
-            Button {
-                viewModel.toggleArticleBookmark(article: article)
-            } label: {
-                Image(systemName: viewModel.articleIsBookmark(article) ? "bookmark.fill" : "bookmark")
+            HStack {
+                Button {
+                    isShowActivityController.toggle()
+                } label: {
+                    Image(systemName: "square.and.arrow.up")
+                }
+                
+                Button {
+                    viewModel.toggleArticleBookmark(article: article)
+                } label: {
+                    Image(systemName: viewModel.articleIsBookmark(article) ? "bookmark.fill" : "bookmark")
+                }
             }
+        }
+        .sheet(isPresented: $isShowActivityController) {
+            ActivityViewController(activityItems: [url])
         }
     }
 }
