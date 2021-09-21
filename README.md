@@ -5,10 +5,7 @@
 ![issues](https://img.shields.io/github/issues-raw/miladgolchinpour/NewsPool)
 ![last commit](https://img.shields.io/github/last-commit/miladgolchinpour/NewsPool)
 
-You can easily read news and share articles with your friends by NewsPool.  
-Actually this application is simple and **not created for real usage**.  
-If you will find a problem at the codes, please share the issue right here.
-
+## Read news and share articles with your friends.   
 <img src="https://user-images.githubusercontent.com/84657607/133922547-1f3aa69d-e48a-48e5-90b5-d979b1e4d8e4.png"></img>
 
 ## Some features of NewsPool:  
